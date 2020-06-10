@@ -1,0 +1,87 @@
+<!--DOCKTYPE html-->
+<html lang="en">
+ <head> 
+  <title> 3d card slider </title> 
+  <meta name="viewport" content="device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
+  <link rel="stylesheet" type="text/css" href="swiper.min.css"> 
+  <link rel="stylesheet" type="text/css" href="./css/style.css"> 
+ </head> 
+ <body> 
+  <h1> Welcome to <span> Rohan Pimpale </span> photo gallery </h1> 
+  <div class="swiper-container"> 
+   <div class="swiper-wrapper"> 
+    <div class="swiper-slide"> 
+     <div class="imgBx"> 
+      <img src="./img/img1.jpg"> 
+     </div> 
+     <div class="details"> 
+      <h3> ROHAN PIMPALE <br> <span> WEB DESIGNER </span> </h3> 
+     </div> 
+    </div> 
+    <div class="swiper-slide"> 
+     <div class="imgBx"> 
+      <img src="./img/img2.jpg"> 
+     </div> 
+     <div class="details"> 
+      <h3> ROHAN PIMPALE <br> <span> WEB DESIGNER </span> </h3> 
+     </div> 
+    </div> 
+    <div class="swiper-slide"> 
+     <div class="imgBx"> 
+      <img src="./img/img3.jpg"> 
+     </div> 
+     <div class="details"> 
+      <h3> ROHAN PIMPALE <br> <span> WEB DESIGNER </span> </h3> 
+     </div> 
+    </div> 
+    <div class="swiper-slide"> 
+     <div class="imgBx"> 
+      <img src="./img/img4.jpg"> 
+     </div> 
+     <div class="details"> 
+      <h3> ROHAN PIMPALE <br> <span> WEB DESIGNER </span> </h3> 
+     </div> 
+    </div> 
+    <div class="swiper-slide"> 
+     <div class="imgBx"> 
+      <img src="./img/img5.jpg"> 
+     </div> 
+     <div class="details"> 
+      <h3> ROHAN PIMPALE <br> <span> WEB DESIGNER </span> </h3> 
+     </div> 
+    </div> 
+    <div class="swiper-slide"> 
+     <div class="imgBx"> 
+      <img src="./img/img6.jpg"> 
+     </div> 
+     <div class="details"> 
+      <h3> ROHAN PIMPALE <br> <span> WEB DESIGNER </span> </h3> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="swiper-pagination"> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="swiper.min.js">  </script> 
+  <script> 
+   var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow', 
+    grabCursor: true, 
+    centeredSlides: true, 
+    slidesPerView: 'auto', 
+    coverflowEffect: { 
+    rotate: 50, 
+    stretch: 0, 
+    depth: 100, 
+    modifier: 1, 
+    slideShadows : true,
+    }, pagination: { 
+    el: '.swiper-pagination', 
+    }, 
+    }); 
+    </script>  
+  <footer> 
+   <p class="programminghero">Learned and developed this site with <a href="http://www.programming-hero.com">Programming Hero</a></p> 
+  </footer>
+ </body>
+</html>
